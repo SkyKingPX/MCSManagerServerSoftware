@@ -22,6 +22,11 @@ const version = process.argv[3];
 const fileName = process.argv[4];
 const launcherVersion = "1.0.1";
 
+if (software == null || version == null) {
+    console.error("One of your arguments is missing. Please check your command. Exiting...");
+    exit;
+}
+
 function getLatestBuild(options, version, callback) {
     const req = https.request(options, (res) => {
         let data = '';
