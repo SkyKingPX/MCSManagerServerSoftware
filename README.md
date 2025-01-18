@@ -5,6 +5,10 @@ The releases contain Serverfiles that cannot be downloaded by MCSManager without
 
 # Server Update Script
 
+# Server Update Script for MCSManager
+[Version 1.0.0]
+by SkyKing_PX and FourK
+
 ## Usage:
 **Linux:**
 `/opt/node-v20.12.2-linux-x64/bin/node ./getVersionLatestBuild.js <purpur/paper/fabric> <MC Version> <(Optional) output-file-name.jar>`
@@ -19,9 +23,9 @@ _Requires [NodeJS](https://nodejs.org/en/download/) to be **manually** installed
 
 ## In-Panel Update Command:
 **Linux:**
-`curl -s -o getVersionLatestBuild.js https://raw.githubusercontent.com/SkyKingPX/MCSManagerServerSoftware/refs/tags/ServerUpdater/getVersionLatestBuild.js && /opt/node-v20.12.2-linux-x64/bin/node ./getVersionLatestBuild.js <purpur/paper/fabric> <MC Version> <(Optional) output-file-name.jar>`
+`sh -c "curl -s -o getVersionLatestBuild.js https://raw.githubusercontent.com/SkyKingPX/MCSManagerServerSoftware/refs/tags/ServerUpdater/getVersionLatestBuild.js && /opt/node-v20.12.2-linux-x64/bin/node ./getVersionLatestBuild.js <purpur/paper/fabric> <MC Version> <(Optional) output-file-name.jar>" mcsm`
 > Example:
-> `curl -s -o getVersionLatestBuild.js https://raw.githubusercontent.com/SkyKingPX/MCSManagerServerSoftware/refs/tags/ServerUpdater/getVersionLatestBuild.js && /opt/node-v20.12.2-linux-x64/bin/node ./getVersionLatestBuild.js paper 1.21.4 server.jar`
+> `sh -c "curl -s -o getVersionLatestBuild.js https://raw.githubusercontent.com/SkyKingPX/MCSManagerServerSoftware/refs/tags/ServerUpdater/getVersionLatestBuild.js && /opt/node-v20.12.2-linux-x64/bin/node ./getVersionLatestBuild.js paper 1.21.4 server.jar" mcsm`
 
 **Windows:**
 `curl -s -o getVersionLatestBuild.js https://raw.githubusercontent.com/SkyKingPX/MCSManagerServerSoftware/refs/tags/ServerUpdater/getVersionLatestBuild.js && node ./getVersionLatestBuild.js <purpur/paper/fabric> <MC Version> <(Optional) output-file-name.jar>`
