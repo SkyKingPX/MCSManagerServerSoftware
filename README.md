@@ -5,10 +5,6 @@ The releases contain Serverfiles that cannot be downloaded by MCSManager without
 
 # Server Update Script
 
-# Server Update Script for MCSManager
-[Version 1.0.0]
-by SkyKing_PX and FourK
-
 ## Usage:
 **Linux:**
 `/opt/node-v20.12.2-linux-x64/bin/node ./getVersionLatestBuild.js <purpur/paper/fabric> <MC Version> <(Optional) output-file-name.jar>`
