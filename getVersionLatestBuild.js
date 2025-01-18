@@ -10,7 +10,7 @@
  * 
  * In-Panel Update Command:
  * curl -o getVersionLatestBuild.js -z getVersionLatestBuild.js https://github.com/SkyKingPX/MCSManagerServerSoftware/releases/download/ServerUpdater/getVersionLatestBuild.js && node ./getVersionLatestBuild.js <purpur/paper/fabric> <MC Version> <(Optional) output-file-name.jar>
- */ 
+ */
 
 const https = require('https');
 const fs = require('fs');
