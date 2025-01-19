@@ -12,7 +12,7 @@ The releases contain Serverfiles that cannot be downloaded by MCSManager without
 > `/opt/node-v16.20.2-linux-x64/bin/node ./getVersionLatestBuild.js paper 1.21.4 server.jar`
 
 **Windows:**
-_Requires [NodeJS](https://nodejs.org/en/download/) to be **manually** installed!_
+_Requires [NodeJS](https://nodejs.org/en/download/) to be **manually** installed (Only if you don't have MCSM installed)!_
 `node ./getVersionLatestBuild.js <purpur/paper/fabric> <MC Version> <(Optional) output-file-name.jar>`
 > Example:
 > `node ./getVersionLatestBuild.js paper 1.21.4 server.jar`
