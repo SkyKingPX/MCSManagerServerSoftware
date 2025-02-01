@@ -27,6 +27,9 @@
  * `"C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe" -command "curl -o getVersionLatestBuild.js https://raw.githubusercontent.com/SkyKingPX/MCSManagerServerSoftware/refs/tags/ServerUpdater/getVersionLatestBuild.js; <MCSM Install Location>\daemon\node_app.exe .\getVersionLatestBuild.js <purpur/paper/fabric> <MC Version> <(Optional) output-file-name.jar>"`
  * > Example:
  * > `"C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe" -command "curl -o getVersionLatestBuild.js https://raw.githubusercontent.com/SkyKingPX/MCSManagerServerSoftware/refs/tags/ServerUpdater/getVersionLatestBuild.js; C:\MCSM\daemon\node_app.exe .\getVersionLatestBuild.js paper 1.21.4 server.jar"`
+ * 
+ * If Node.js is already installed and available with the 'node' command, you can use the following command on both Linux and Windows:
+ * `npx -y github:SkyKingPX/mc-server-updater#ServerUpdater -- <purpur/paper/fabric> <MC Version> <(Optional) output-file-name.jar>`
  */
 
 const https = require('https');

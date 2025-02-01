@@ -1,0 +1,10 @@
+{
+    "name": "mc-server-updater",
+    "version": "1.0.0",
+    "description": "A Node.js Script that can update your Minecraft Server",    
+    "bin": {
+      "getVersionLatestBuild": "getVersionLatestBuild.js"
+    },
+    "keywords": [],
+    "author": "SkyKing_PX & FourK"
+}
