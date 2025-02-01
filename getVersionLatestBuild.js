@@ -30,9 +30,9 @@
  * > `"C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe" -command "curl -o getVersionLatestBuild.js https://raw.githubusercontent.com/SkyKingPX/MCSManagerServerSoftware/refs/tags/ServerUpdater/getVersionLatestBuild.js; C:\MCSM\daemon\node_app.exe .\getVersionLatestBuild.js paper 1.21.4 server.jar"`
  * 
  * If Node.js and npm are already installed and available with the 'node' & 'npm' commands, you can use the following command on both Linux and Windows:
- * `npx -y github:SkyKingPX/MCSManagerServerSoftware#ServerUpdater getVersionLatestBuild <purpur/paper/fabric> <MC Version> <(Optional) output-file-name.jar>`
+ * `npx -y github:SkyKingPX/MCSManagerServerSoftware#ServerUpdater <purpur/paper/fabric> <MC Version> <(Optional) output-file-name.jar>`
  * > Example:
- * > `npx -y github:SkyKingPX/MCSManagerServerSoftware#ServerUpdater getVersionLatestBuild paper 1.21.4 server.jar`
+ * > `npx -y github:SkyKingPX/MCSManagerServerSoftware#ServerUpdater paper 1.21.4 server.jar`
  */
 
 const https = require('https');

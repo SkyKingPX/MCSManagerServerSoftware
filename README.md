@@ -31,6 +31,6 @@ Installing [Node.js](https://nodejs.org/en/download/) is recommended for easier 
 
 ## Update Command when Node.js and npm are installed
 **Linux & Windows:**
-`npx -y github:SkyKingPX/MCSManagerServerSoftware#ServerUpdater getVersionLatestBuild <purpur/paper/fabric> <MC Version> <(Optional) output-file-name.jar>`
+`npx -y github:SkyKingPX/MCSManagerServerSoftware#ServerUpdater <purpur/paper/fabric> <MC Version> <(Optional) output-file-name.jar>`
 > Example:
-> `npx -y github:SkyKingPX/MCSManagerServerSoftware#ServerUpdater getVersionLatestBuild paper 1.21.4 server.jar`
+> `npx -y github:SkyKingPX/MCSManagerServerSoftware#ServerUpdater paper 1.21.4 server.jar`
