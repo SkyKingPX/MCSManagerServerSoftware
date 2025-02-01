@@ -25,13 +25,12 @@ Installing [Node.js](https://nodejs.org/en/download/) is recommended for easier 
 > `sh -c "curl -s -o getVersionLatestBuild.js https://raw.githubusercontent.com/SkyKingPX/MCSManagerServerSoftware/refs/tags/ServerUpdater/getVersionLatestBuild.js && /opt/node-v16.20.2-linux-x64/bin/node ./getVersionLatestBuild.js paper 1.21.4 server.jar"`
 
 **Windows (Node.js shipped with MCSM):**
-
 `"C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe" -command "curl -o getVersionLatestBuild.js https://raw.githubusercontent.com/SkyKingPX/MCSManagerServerSoftware/refs/tags/ServerUpdater/getVersionLatestBuild.js; <MCSM Install Location>\daemon\node_app.exe .\getVersionLatestBuild.js <purpur/paper/fabric> <MC Version> <(Optional) output-file-name.jar>"`
 > Example:
 > `"C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe" -command "curl -o getVersionLatestBuild.js https://raw.githubusercontent.com/SkyKingPX/MCSManagerServerSoftware/refs/tags/ServerUpdater/getVersionLatestBuild.js; C:\MCSM\daemon\node_app.exe .\getVersionLatestBuild.js paper 1.21.4 server.jar"`
 
 ## Update Command when Node.js and npm are installed
 **Linux & Windows:**
-`npx -y github:SkyKingPX/mc-server-updater#ServerUpdater -- <purpur/paper/fabric> <MC Version> <(Optional) output-file-name.jar>`
+`npx -y github:SkyKingPX/MCSManagerServerSoftware#ServerUpdater getVersionLatestBuild <purpur/paper/fabric> <MC Version> <(Optional) output-file-name.jar>`
 > Example:
-> `npx -y github:SkyKingPX/mc-server-updater#ServerUpdater -- paper 1.21.4 server.jar`
+> `npx -y github:SkyKingPX/MCSManagerServerSoftware#ServerUpdater getVersionLatestBuild paper 1.21.4 server.jar`
