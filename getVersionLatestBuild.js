@@ -30,6 +30,8 @@
  * 
  * If Node.js is already installed and available with the 'node' command, you can use the following command on both Linux and Windows:
  * `npx -y github:SkyKingPX/mc-server-updater#ServerUpdater -- <purpur/paper/fabric> <MC Version> <(Optional) output-file-name.jar>`
+ * > Example:
+ * > `npx -y github:SkyKingPX/mc-server-updater#ServerUpdater -- paper 1.21.4 server.jar`
  */
 
 const https = require('https');
